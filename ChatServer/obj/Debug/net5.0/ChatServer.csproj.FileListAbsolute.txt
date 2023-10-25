@@ -1,0 +1,16 @@
+E:\Programming\Sharp\ChatAppTest\ChatServer\bin\Debug\net5.0\ChatServer.exe
+E:\Programming\Sharp\ChatAppTest\ChatServer\bin\Debug\net5.0\ChatServer.deps.json
+E:\Programming\Sharp\ChatAppTest\ChatServer\bin\Debug\net5.0\ChatServer.runtimeconfig.json
+E:\Programming\Sharp\ChatAppTest\ChatServer\bin\Debug\net5.0\ChatServer.runtimeconfig.dev.json
+E:\Programming\Sharp\ChatAppTest\ChatServer\bin\Debug\net5.0\ChatServer.dll
+E:\Programming\Sharp\ChatAppTest\ChatServer\bin\Debug\net5.0\ChatServer.pdb
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.csproj.AssemblyReference.cache
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.AssemblyInfoInputs.cache
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.AssemblyInfo.cs
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.csproj.CoreCompileInputs.cache
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.dll
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\refint\ChatServer.dll
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.pdb
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ChatServer.genruntimeconfig.cache
+E:\Programming\Sharp\ChatAppTest\ChatServer\obj\Debug\net5.0\ref\ChatServer.dll
