@@ -60,6 +60,10 @@ namespace ChatAppTest.Net
                     User connectedUser = new User(Guid.Parse(_packetReader.ReadMessage()), _packetReader.ReadMessage());
                     UserConnected?.Invoke(connectedUser);
                 }
+                if(opCode == 5)
+                {
+
+                }
             }
         }
 
@@ -69,5 +73,12 @@ namespace ChatAppTest.Net
             _readPacketsTask.Dispose();
         }
 
+        internal void SendMessageToServer(string message)
+        {
+            PacketBuilder packetBuilder = new PacketBuilder();
+            packetBuilder.WriteOpCode(5);
+            packetBuilder.WriteString(message);
+            _tcpClient.Client.Send(packetBuilder.GetBytes());
+        }
     }
 }

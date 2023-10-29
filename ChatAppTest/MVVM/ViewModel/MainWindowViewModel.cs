@@ -11,6 +11,9 @@ namespace ChatAppTest.MVVM.ViewModel
     internal class MainWindowViewModel
     {
         public string Username { get; set; }
+
+        public string Message { get; set; }
+
         public ObservableCollection<User> Users { get; set; }
 
         private AppClient _appClient;
@@ -28,6 +31,18 @@ namespace ChatAppTest.MVVM.ViewModel
             return !string.IsNullOrEmpty(Username);
         }
 
+        public ICommand SendMessageToServer { get; set; }
+
+        private void OnExecuteSendMessageToServerCommand(object? parameter)
+        {
+            _appClient.SendMessageToServer(Message);
+        }
+
+        private bool CanExecuteSendMessageToServerCommand(object? parameter)
+        {
+            return !string.IsNullOrEmpty(Message);
+        }
+
         private void OnUserConnected(User user)
         {
             if(!Users.Any(x => x.Guid == user.Guid))
@@ -42,6 +57,7 @@ namespace ChatAppTest.MVVM.ViewModel
             Users = new ObservableCollection<User>();
             _appClient.UserConnected += OnUserConnected;
             ConnectToServerCommand = new LambdaCommand(OnExecuteConnectToServerCommand, CanExecuteConnectToServerCommand);
+            SendMessageToServer = new LambdaCommand(OnExecuteSendMessageToServerCommand, CanExecuteSendMessageToServerCommand);
         }
     }
 }
