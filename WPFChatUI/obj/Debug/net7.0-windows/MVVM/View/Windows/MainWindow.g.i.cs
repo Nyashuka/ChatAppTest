@@ -54,7 +54,7 @@ namespace WPFChatUI.MVVM.View.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFChatUI;V1.0.0.0;component/mvvm/view/windows/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFChatUI;component/mvvm/view/windows/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\MVVM\View\Windows\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

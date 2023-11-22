@@ -1,1 +1,1 @@
-# ChatAppTest
+# Repo for chat app test projects
